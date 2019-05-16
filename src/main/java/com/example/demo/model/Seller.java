@@ -24,7 +24,7 @@ public class Seller {
 //	private String password;
 //	private String confpw;
 	
-	
+	public Seller() {}
 	
 	public Seller(String fname, String lname) {
 		super();

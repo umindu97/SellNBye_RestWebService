@@ -18,7 +18,7 @@ public class RestController {
 	}
 	
 	//seller saving method
-	@GetMapping("/save-seller")
+	@GetMapping("/saveseller")
 	public String saveSeller(@RequestParam String fname, @RequestParam String lname) {
 		Seller seller = new Seller(fname, lname);
 		sellerService.saveMySeller(seller);
